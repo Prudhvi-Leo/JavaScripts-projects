@@ -1,0 +1,13 @@
+
+nav{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+.container{
+    margin:250px;
+}
+
+
+h5{
+    cursor: pointer;
+    border-bottom: solid red 2px;
+}

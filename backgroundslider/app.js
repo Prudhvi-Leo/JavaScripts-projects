@@ -10,14 +10,14 @@ body.style.backgroundImage = slides[activeSlide].style.backgroundImage
                         }
 function setSlides(){
     slides.forEach((slide)=>{
-        slide.classList.remove('.active')
+        slide.classList.remove('active')
     })
     slides[activeSlide].classList.add('active')
 }
 rightBtn.addEventListener('click',()=>{
  
     activeSlide++;
-    if(activeSlide>2){
+    if(activeSlide>slides.length -1){
         activeSlide =2;
     }
     setBgToBody();

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+*,::before,::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: "poppins" ,sans-serif;
+   background-color: #332b52;
+    height: 100vh;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.content{
+  
+    position: relative;
+  
+}
+.content h3{
+    overflow:hidden ;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgb(218, 99, 168);
+    animation: load 8s steps(13) infinite;
+}
+@keyframes load{
+    0%{
+        width: 0%;
+    }
+    30%{
+        width:291.29px;
+    }
+}
